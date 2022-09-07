@@ -4,7 +4,7 @@
   "info": {
     "singularName": "booking",
     "pluralName": "bookings",
-    "displayName": "booking",
+    "displayName": "Booking",
     "description": ""
   },
   "options": {
@@ -16,7 +16,8 @@
       "type": "string"
     },
     "status": {
-      "type": "integer"
+      "type": "integer",
+      "default": 1
     },
     "date_book": {
       "type": "datetime"
@@ -30,14 +31,17 @@
     "note": {
       "type": "text"
     },
-    "booking_items": {
-      "type": "json"
-    },
     "store_name": {
       "type": "string"
     },
     "phone": {
       "type": "string"
+    },
+    "booking_items": {
+      "type": "json"
+    },
+    "items": {
+      "type": "text"
     }
   }
 }
